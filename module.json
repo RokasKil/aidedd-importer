@@ -1,0 +1,28 @@
+{
+  "name": "aidedd-importer",
+  "author": "Speedas",
+  "title": "Aidedd Importer",
+  "description": "Improts monsters from aidedd",
+  "version": "0.1",
+  "download": "https://github.com/mrprimate/ddb-importer/releases/download/2.4.0/ddb-importer.zip",
+  "manifest": "https://github.com/mrprimate/ddb-importer/releases/download/latest/module.json",
+  "url": "https://github.com/mrprimate/ddb-importer",
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "0.8.9",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "system": [
+    "dnd5e"
+  ],
+  "scripts": [
+    "./scripts/main.js"
+  ],
+  "styles": [
+    "./css/default.css"
+  ]
+}
